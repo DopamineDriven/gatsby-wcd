@@ -1,0 +1,47 @@
+{
+  "name": "gatsby-wcd",
+  "version": "1.0.0",
+  "description": "typescript",
+  "main": "index.js",
+  "engines": {
+    "node": "14.4.0"
+  },
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint . --ignore-path .gitignore --ext .ts, .tsx, .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DopamineDriven/gatsby-wcd.git"
+  },
+  "keywords": [],
+  "author": "Andrew Ross",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DopamineDriven/gatsby-wcd/issues"
+  },
+  "homepage": "https://github.com/DopamineDriven/gatsby-wcd#readme",
+  "dependencies": {
+    "gatsby": "^2.23.11",
+    "gatsby-plugin-typography": "^2.5.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-typography": "^0.16.19",
+    "typography": "^0.16.19",
+    "typography-theme-bootstrap": "^0.16.19"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.14",
+    "@types/react": "^16.9.41",
+    "@types/react-dom": "^16.9.8",
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "@typescript-eslint/parser": "^3.4.0",
+    "eslint": "^7.3.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.5"
+  }
+}
