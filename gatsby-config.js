@@ -1,3 +1,5 @@
+require("ts-node").register({ files: true });
+
 module.exports = {
 	siteMetadata: {
 		siteName: `gatsby-wcd`,
@@ -11,6 +13,14 @@ module.exports = {
 			options: {
 				pathToConfigModule: `src/utils/typography.js`,
 				omitGoogleFont: true
+			}
+		},
+		{
+			resolve: `gatsby-plugin-typescript`,
+			options: {
+				isTSX: true,
+				jsxPragma: `jsx`,
+				allExtensions: true
 			}
 		}
 	]
